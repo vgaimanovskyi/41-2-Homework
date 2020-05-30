@@ -94,6 +94,8 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
+  -webkit-transform: scale(1);
+          transform: scale(1);
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
@@ -101,5 +103,10 @@ body {
 #button-block button#blue {
   margin-right: 0;
   background-image: url(../images/blue.png);
+}
+
+#button-block button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=style.css.map */
